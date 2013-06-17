@@ -136,7 +136,7 @@
                             reconnectTimeoutId = null;
 
                             if (textStatus === "abort") {
-                                connection.log("Aborted xhr requst.");
+                                connection.log("Aborted xhr request.");
                                 return;
                             }
 
